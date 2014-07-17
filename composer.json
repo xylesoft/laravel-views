@@ -1,0 +1,22 @@
+{
+    "name": "xylesoft/laravel-views",
+    "description": "Laravel with a output view control system",
+    "require": {
+        "laravel/framework": "4.1.*",
+        "rcrowe/twigbridge": "0.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "authors": [
+        {
+            "name": "Jeramy Wenserit",
+            "email": "jeramy@xylesoft.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "views": "app/"
+        }
+    }
+}
