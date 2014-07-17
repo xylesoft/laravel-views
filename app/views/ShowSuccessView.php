@@ -9,6 +9,7 @@ class ShowSuccessView extends View {
         // We set the title here, because the title is for HTML ONLY!
         $dataContainer['title'] = "A HTML view";
 
+        // Call the renderer
         return \View::make('pages/index')->with($dataContainer);
     }
 

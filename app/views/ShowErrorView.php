@@ -9,6 +9,7 @@ class ShowErrorView extends View {
         // We set the title here, because the title is for HTML ONLY!
         $dataContainer['title'] = "A HTML error view";
 
+        // Call the renderer
         return \View::make('pages/index-error')->with($dataContainer);
     }
 
